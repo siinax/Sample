@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context="com.linglingyi.com.sample.MainActivity">
+
+    <com.linglingyi.com.samplelibrary.TitleBar
+        android:id="@+id/titleBar"
+        app:backgroundColor="@color/title_color_blue"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"/>
+    <com.bigkoo.convenientbanner.ConvenientBanner
+        android:visibility="visible"
+        android:layout_below="@id/titleBar"
+        android:id="@+id/banner"
+        app:canLoop="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <TextView
+        android:id="@+id/index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/index_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="3dp"
+        android:text="5/16"
+        android:textColor="@color/white" />
+
+
+
+
+    </RelativeLayout>
