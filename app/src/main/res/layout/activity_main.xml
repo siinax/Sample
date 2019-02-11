@@ -6,9 +6,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#000000"
-    tools:context="com.linglingyi.com.sample.MainActivity">
+    tools:context="com.linglingyi.siinax.sample.MainActivity">
 
-    <com.linglingyi.com.samplelibrary.TitleBar
+    <com.linglingyi.siinax.titlebar.TitleBar
         android:id="@+id/titleBar"
         app:backgroundColor="@color/title_color_blue"
         android:layout_width="match_parent"

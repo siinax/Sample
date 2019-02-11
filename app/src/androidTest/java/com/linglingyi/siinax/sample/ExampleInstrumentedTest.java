@@ -1,4 +1,4 @@
-package com.linglingyi.com.sample;
+package com.linglingyi.siinax.sample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

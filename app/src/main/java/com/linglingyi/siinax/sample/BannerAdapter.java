@@ -1,4 +1,4 @@
-package com.linglingyi.com.sample;
+package com.linglingyi.siinax.sample;
 
 import android.support.v4.view.PagerAdapter;
 import android.view.LayoutInflater;

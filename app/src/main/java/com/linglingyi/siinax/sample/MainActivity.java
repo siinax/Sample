@@ -1,17 +1,14 @@
-package com.linglingyi.com.sample;
+package com.linglingyi.siinax.sample;
 
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.res.Resources;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bigkoo.convenientbanner.ConvenientBanner;
@@ -20,8 +17,8 @@ import com.bigkoo.convenientbanner.holder.Holder;
 import com.bigkoo.convenientbanner.listener.OnItemClickListener;
 import com.bumptech.glide.Glide;
 import com.github.chrisbanes.photoview.PhotoView;
-import com.linglingyi.com.samplelibrary.Logf;
-import com.linglingyi.com.samplelibrary.TitleBar;
+import com.linglingyi.siinax.titlebar.Logf;
+import com.linglingyi.siinax.titlebar.TitleBar;
 
 import java.util.ArrayList;
 import java.util.List;

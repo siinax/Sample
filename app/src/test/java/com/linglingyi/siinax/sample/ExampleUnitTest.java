@@ -1,4 +1,4 @@
-package com.linglingyi.com.sample;
+package com.linglingyi.siinax.sample;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

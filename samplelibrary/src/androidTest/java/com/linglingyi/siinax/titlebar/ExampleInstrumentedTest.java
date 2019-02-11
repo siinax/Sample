@@ -1,4 +1,4 @@
-package com.linglingyi.com.samplelibrary;
+package com.linglingyi.siinax.titlebar;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

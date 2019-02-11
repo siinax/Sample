@@ -1,4 +1,4 @@
-package com.linglingyi.com.sample;
+package com.linglingyi.siinax.sample;
 
 import android.app.Application;
 import android.content.Context;
