@@ -12,7 +12,6 @@
         android:id="@+id/titleBar"
         app:backgroundColor="@color/title_color_blue"
         android:layout_width="match_parent"
-        android:visibility="gone"
         android:layout_height="wrap_content"/>
     <com.bigkoo.convenientbanner.ConvenientBanner
         android:visibility="visible"

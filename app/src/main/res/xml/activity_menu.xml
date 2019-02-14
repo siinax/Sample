@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference android:title="MainActivity">
+        <intent android:targetPackage="com.linglingyi.siinax.sample"
+                android:targetClass="com.linglingyi.siinax.sample.MainActivity" />
+    </Preference>
+
+
+</PreferenceScreen>

@@ -207,13 +207,9 @@ public class TitleBar extends RelativeLayout implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-        if (backpresslistener == null) {
-            Logf.e(TAG, "backpresslistener 不可为空");
-            return;
-        }
-        if (listener == null && leftlistener == null && Lrlistener == null ) {
-//            new Throwable("TitleBarClickListener 不可为空");
-            Logf.e(TAG, "TitleBarClickListener 不可为空");
+
+        if (listener == null && leftlistener == null && Lrlistener == null && backpresslistener == null) {
+            Logf.e(TAG, "ClickListener 不可为空");
             return;
         }
 
